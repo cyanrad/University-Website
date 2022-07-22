@@ -1,0 +1,421 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jul 22 20:17:56 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# makefile (from 'makefile', line 3)
+migratepath = go/db/migrations
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\radwan
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+LOCALAPPDATA = C:\Users\radwan\AppData\Local
+# environment
+RADPROGRAMS = C:\RadPrograms
+# environment
+VSCODE_CWD = C:\Users\radwan\Desktop\Code\Go\backend\university
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# environment
+NO_XILINX_DATA_LICENSE = HIDDEN
+# environment
+GOPATH = C:\Users\radwan\go
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15612_ULCNWKOOYXAFIOHL
+# environment
+VS160COMCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\radwan\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# makefile (from 'makefile', line 1)
+password = secret
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\radwan\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+# environment
+ONEDRIVE = C:\Users\radwan\OneDrive
+# environment
+INTELLIJ IDEA COMMUNITY EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\bin;
+# makefile
+CURDIR := c:/Users/radwan/Desktop/Code/Go/backend/university
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# automatic
+@F = $(notdir $@)
+# makefile (from 'makefile', line 2)
+path = "postgresql://root:secret@localhost:5433/university?sslmode=disable"
+# environment
+PT8HOME = G:\cisco
+# environment
+VSCODE_PID = 15612
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $( 
+patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\radwan
+# environment
+PLATFORMIO_CALLER = vscode
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\libnvvp;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\Win64;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\openCV\opencv\build\x64\vc15\bin;C:\Program Files (x86)\dotnet\;G:\downloades\zip_files\matlab\runtime\win64;G:\downloades\zip_files\matlab\bin;G:\downloades\zip_files\matlab\polyspace\bin;C:\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\kotlinc\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\Program Files\Go\bin;F:\Matlab\matlab\runtime\win64;F:\Matlab\matlab\bin;C:\dll;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\RadPrograms;C:\MinGW64\bin;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\radwan\.cargo\bin;C:\Users\radwan\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\radwan\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\radwan\AppData\Local\Programs\Python\Python39\;C:\Cadence\SPB_16.5\OpenAccess\bin\win32\opt;C:\Cadence\SPB_16.5\tools\Capture;C:\Cadence\SPB_16.5\tools\PSpice\Library;C:\Cadence\SPB_16.5\tools\PSpice;C:\Cadence\SPB_16.5\tools\specctra\bin;C:\Cadence\SPB_16.5\tools\fet\bin;C:\Cadence\SPB_16.5\tools\libutil\bin;C:\Cadence\SPB_16.5\tools\bin;C:\Cadence\SPB_16.5\tools\pcb\bin;C:\Users\radwan\AppData\Local\Microsoft\WindowsApps;C:\Users\radwan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\radwan\.dotnet\tools;C:\Users\radwan\.dotnet\tools;C:\Users\radwan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\bin;C:\Users\radwan\AppData\Roaming\npm;C:\Users\radwan\go\bin;C:\RadPrograms;C:\MinGW64\bin;C:\Users\radwan\.cargo\bin;
+# environment
+COMPUTERNAME = CYANRADPC
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+NIEXTCCOMPILERSUPP = C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132995638907716785
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# environment
+QT_DEVICE_PIXEL_RATIO = auto
+# environment
+CUDA_PATH_V11_4 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4
+# environment
+LOGONSERVER = \\CYANRADPC
+# environment
+USERNAME = radwan
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+NVCUDASAMPLES11_4_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.4
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = CYANRADPC
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# environment
+CHDL_LIB_INST_DIR = C:\Cadence\SPB_16.5
+# environment
+PLATFORMIO_PATH = C:\Users\radwan\.platformio\python3;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\libnvvp;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\Win64;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\openCV\opencv\build\x64\vc15\bin;C:\Program Files (x86)\dotnet\;G:\downloades\zip_files\matlab\runtime\win64;G:\downloades\zip_files\matlab\bin;G:\downloades\zip_files\matlab\polyspace\bin;C:\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\kotlinc\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\Program Files\Go\bin;F:\Matlab\matlab\runtime\win64;F:\Matlab\matlab\bin;C:\dll;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\RadPrograms;C:\MinGW64\bin;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\radwan\.cargo\bin;C:\Users\radwan\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\radwan\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\radwan\AppData\Local\Programs\Python\Python39\;C:\Cadence\SPB_16.5\OpenAccess\bin\win32\opt;C:\Cadence\SPB_16.5\tools\Capture;C:\Cadence\SPB_16.5\tools\PSpice\Library;C:\Cadence\SPB_16.5\tools\PSpice;C:\Cadence\SPB_16.5\tools\specctra\bin;C:\Cadence\SPB_16.5\tools\fet\bin;C:\Cadence\SPB_16.5\tools\libutil\bin;C:\Cadence\SPB_16.5\tools\bin;C:\Cadence\SPB_16.5\tools\pcb\bin;C:\Users\radwan\AppData\Local\Microsoft\WindowsApps;C:\Users\radwan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\radwan\.dotnet\tools;C:\Users\radwan\.dotnet\tools;C:\Users\radwan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\bin;C:\Users\radwan\AppData\Roaming\npm;C:\Users\radwan\go\bin;C:\RadPrograms;C:\MinGW64\bin;C:\Users\radwan\.cargo\bin;;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\libnvvp;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\Win64;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\openCV\opencv\build\x64\vc15\bin;C:\Program Files (x86)\dotnet\;G:\downloades\zip_files\matlab\runtime\win64;G:\downloades\zip_files\matlab\bin;G:\downloades\zip_files\matlab\polyspace\bin;C:\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\kotlinc\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\Program Files\Go\bin;F:\Matlab\matlab\runtime\win64;F:\Matlab\matlab\bin;C:\dll;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\RadPrograms;C:\MinGW64\bin;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\radwan\.cargo\bin;C:\Users\radwan\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\radwan\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\radwan\AppData\Local\Programs\Python\Python39\;C:\Cadence\SPB_16.5\OpenAccess\bin\win32\opt;C:\Cadence\SPB_16.5\tools\Capture;C:\Cadence\SPB_16.5\tools\PSpice\Library;C:\Cadence\SPB_16.5\tools\PSpice;C:\Cadence\SPB_16.5\tools\specctra\bin;C:\Cadence\SPB_16.5\tools\fet\bin;C:\Cadence\SPB_16.5\tools\libutil\bin;C:\Cadence\SPB_16.5\tools\bin;C:\Cadence\SPB_16.5\tools\pcb\bin;C:\Users\radwan\AppData\Local\Microsoft\WindowsApps;C:\Users\radwan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\radwan\.dotnet\tools;C:\Users\radwan\.dotnet\tools;C:\Users\radwan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\bin;C:\Users\radwan\AppData\Roaming\npm;C:\Users\radwan\go\bin;C:\RadPrograms;C:\MinGW64\bin;C:\Users\radwan\.cargo\bin;
+# makefile
+.DEFAULT_GOAL := initdb
+# environment
+CONCEPT_INST_DIR = C:\Cadence\SPB_16.5
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.4
+# environment
+USERDOMAIN_ROAMINGPROFILE = CYANRADPC
+# environment
+NUMBER_OF_PROCESSORS = 6
+# environment
+CDS_LIC_FILE = C:\Cadence\SPB_17.4\License.dat;
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\radwan\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+CDSROOT = C:\Cadence\SPB_16.5
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PLATFORMIO_IDE = 2.5.0
+# environment
+HOME = C:\SPB_Data
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+OA_PLUGIN_PATH = C:\Cadence\SPB_16.5\Share\oaPlugIns
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\radwan\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\c4f68798fb1ac654e1121ad498dc4be0-1.69.2-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+VS150COMCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# environment
+QTMSBUILD = C:\Users\radwan\AppData\Local\QtMsBuild
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+# environment
+PROCESSOR_REVISION = 9e0c
+# environment
+CDS_LIC_ONLY = 1
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 12, GenuineIntel
+# variable set hash-table stats:
+# Load=123/1024=12%, Rehash=0, Collisions=12/151=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/radwan/Desktop/Code/Go/backend/university, mtime 1657013879): 6 files, no impossibilities.
+
+# 6 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+.ONESHELL:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check-name:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 28):
+	$(error name is undefined)
+
+migratedown:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 19):
+	migrate -path ${migratepath} -database ${path} -verbose down
+
+mock:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 54):
+	cd go
+	mockgen -package mockdb -destination db/mock/store.go github.com/cyanrad/university/db/sqlc Store
+
+server:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 44):
+	cd go/
+	go run .
+
+migrateup:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 15):
+	migrate -path ${migratepath} -database ${path} -verbose up
+
+uni:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 49):
+	cd vue/university
+	npm run dev
+
+initdatabase:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 39):
+	cd go/
+	go test -v -cover ./...
+
+sqlc:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 34):
+	cd go/db/
+	docker run --rm -v "%cd%:/src" -w /src kjconroy/sqlc genera 
+te
+
+initdb: check-name
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 8):
+	docker run --name ${name} -p 5433:5432 -e POSTGRES_USER=root -e POSTGRES_PASSWORD=${password} -d postgres:14-alpine
+	timeout 3
+	docker exec universityDB psql -U root -d root -c "CREATE DATABASE university;"
+	make migrateup
+	
+
+updb:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 22):
+	make sqlc
+	make mock
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-14 18:00:20
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: initdatabase check-name migratedown migrateup sqlc uni mock updb
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=17/1024=2%, Rehash=0, Collisions=1/37=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 22 / storage = 153 B / avg = 6 B
+# current buf: size = 8174 B / used = 153 B / count = 22 / avg = 6 B
+
+# strcache performance: lookups = 46 / hit rate = 52%
+# hash-table stats:
+# Load=22/8192=0%, Rehash=0, Collisions=0/46=0%
+# Finished Make data base on Fri Jul 22 20:17:56 2022
+
+ 

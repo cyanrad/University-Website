@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/radwan/Desktop/Code/Go/backend/university'
+make: Leaving directory 'c:/Users/radwan/Desktop/Code/Go/backend/university'
+ 
+makefile:28: *** name is undefined.  Stop.
+

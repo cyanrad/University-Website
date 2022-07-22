@@ -1,0 +1,72 @@
+// students
+table users as U {
+  id varchar [pk]
+  password varchar [not null]
+  full_name varchar 
+}
+
+table students {
+  id varchar [pk, ref: - U.id]
+  data varchar [unique]
+}
+
+// university
+TABLE course as C {
+  crn bigserial [pk]
+  name varchar [not null, unique]
+  subject archar [not null]
+  code char(3) [not null]
+  code_id int [not null]
+  collage varchar [not null]
+  grade_mode varchar  [not null]
+  level varchar [not null]
+  hours int [not null]
+  prerequisites "bigint[]" [ref: <> C.crn]
+  
+  indexes{
+    crn 
+  }
+} 
+
+TABLE classes as CL {
+  course bigint [pk, ref: > C.crn]
+  room bigint [ref: > R.id]
+  type varchar [not null]
+  start_time time [not null]
+  end_time time [not null]
+  start_date date [not null]
+  end_date date [not null]
+  week_days bit(7) [not null]
+  section varchar(4) [not null]
+  enrole_max smallint [not null]
+  enrole_actual smallint [not null]
+  
+  indexes {
+    course
+    room
+  }
+}
+
+TABLE rooms as R {
+  id bigint [pk]
+  location varchar [not null]
+  capacity int [not null]
+  
+  indexes {
+    id
+  }
+}
+
+TABLE events {
+  name varchar [not null, unique]
+  start_date date [not null]
+  end_date date [not null]
+  link varchar
+  description text
+}
+
+TABLE registered {
+  student_id varchar [pk, ref: <> U.id]
+  class_id varchar [ref: <> C.crn]
+  attendance bit(100) [not null]
+}

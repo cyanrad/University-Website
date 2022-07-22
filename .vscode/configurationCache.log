@@ -1,0 +1,1 @@
+{"buildTargets":[".ONESHELL",".PHONY","check-name","initdatabase","initdb","migratedown","migrateup","mock","server","sqlc","test","uni","updb"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
