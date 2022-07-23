@@ -62,5 +62,11 @@ func (server *Server) setupRouter() {
 	router.POST(pathsURI["createUser"], server.createUser)
 	router.POST(pathsURI["loginUser"], server.loginUser)
 
+	// >> creating a new route group
+	// for the auth middleware
+	// for now, no operation requires it
+	/*authRoutes := */
+	router.Group("/").Use(authMiddleware(server.tokenMaker))
+
 	server.router = router
 }
