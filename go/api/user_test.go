@@ -159,7 +159,7 @@ func requireBodyMatchUser(t *testing.T, body *bytes.Buffer, user db.User) {
 	require.NoError(t, err)
 
 	// >> creating the user obj & filling with resp data
-	var gotUser createUserResponse
+	var gotUser userResponse
 	err = json.Unmarshal(data, &gotUser)
 
 	// >> testing created and resp user data validity

@@ -3,15 +3,23 @@ package api
 import (
 	"os"
 	"testing"
+	"time"
 
 	db "github.com/cyanrad/university/db/sqlc"
+	"github.com/cyanrad/university/util"
 	"github.com/gin-gonic/gin"
+	"github.com/stretchr/testify/require"
 )
 
 // >> used for testing
 func NewTestServer(t *testing.T, store db.Store) *Server {
-	// will be added to later
-	server := NewServer(store)
+	config := util.Config{
+		TokenSymmetricKey:   util.RandomString(32),
+		AccessTokenDuration: time.Minute,
+	}
+
+	server, err := NewServer(config, store)
+	require.NoError(t, err)
 
 	return server
 }

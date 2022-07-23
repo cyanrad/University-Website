@@ -1,6 +1,7 @@
 package api
 
 import (
+	"database/sql"
 	"fmt"
 	"net/http"
 	"time"
@@ -19,10 +20,18 @@ type createUserRequest struct {
 }
 
 // >> purpose: so that we don't send the hashed password back when creating a user
-type createUserResponse struct {
+type userResponse struct {
 	ID        string    `json:"id"`
 	FullName  string    `json:"full_name"`
 	CreatedAt time.Time `json:"created_at"`
+}
+
+func NewUserResponse(user db.User) userResponse {
+	return userResponse{
+		ID:        user.ID,
+		FullName:  user.FullName,
+		CreatedAt: user.CreatedAt,
+	}
 }
 
 // >> create user handler
@@ -65,11 +74,7 @@ func (server *Server) createUser(ctx *gin.Context) {
 	}
 
 	// >> send a response with created account
-	resp := createUserResponse{
-		ID:        user.ID,
-		FullName:  user.FullName,
-		CreatedAt: user.CreatedAt,
-	}
+	resp := NewUserResponse(user)
 	ctx.JSON(http.StatusOK, resp)
 }
 
@@ -79,7 +84,8 @@ type loginRequest struct {
 }
 
 type loginResponse struct {
-	FullName string `json:"full_name"`
+	AccessToken string `json:"access_token"`
+	FullName    string `json:"full_name"`
 }
 
 // >> checks the credentials of the user
@@ -96,8 +102,11 @@ func (server *Server) loginUser(ctx *gin.Context) {
 	// >> getting the user's data
 	credentials, err := server.store.GetUser(ctx, req.ID)
 	if err != nil {
-		err = fmt.Errorf("error: incorrect credentials")
-		ctx.JSON(http.StatusForbidden, errorResponse(err))
+		if err == sql.ErrNoRows {
+			ctx.JSON(http.StatusNotFound, errorResponse(err))
+			return
+		}
+		ctx.JSON(http.StatusInternalServerError, errorResponse(err))
 		return
 	}
 
@@ -109,9 +118,20 @@ func (server *Server) loginUser(ctx *gin.Context) {
 		return
 	}
 
+	// >> creating access token
+	accessToken, err := server.tokenMaker.CreateToken(
+		credentials.ID,
+		server.config.AccessTokenDuration,
+	)
+	if err != nil {
+		ctx.JSON(http.StatusInternalServerError, errorResponse(err))
+		return
+	}
+
 	// >> if all is good
 	resp := loginResponse{
-		FullName: credentials.FullName,
+		AccessToken: accessToken,
+		FullName:    credentials.FullName,
 	}
 	ctx.JSON(http.StatusOK, resp)
 }
