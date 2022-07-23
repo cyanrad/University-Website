@@ -1,7 +1,15 @@
+name: ci-test
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
   test:
     name: Test
     runs-on: ubuntu-latest
-	
 	# specifying list of extrnal services
 	# that we want to run together with our job
     services:
