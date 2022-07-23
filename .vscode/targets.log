@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul 22 20:39:41 2022
+# Make data base, printed on Sat Jul 23 13:35:05 2022
 
 # Variables
 
@@ -47,7 +47,7 @@ GOPATH = C:\Users\radwan\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10272_CTASOADTXDXLLXVE
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16904_TUDJEIDLAMSGXQRG
 # environment
 VS160COMCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\
 # environment
@@ -109,7 +109,7 @@ path = "postgresql://root:secret@localhost:5433/university?sslmode=disable"
 # environment
 PT8HOME = G:\cisco
 # environment
-VSCODE_PID = 10272
+VSCODE_PID = 16904
 # environment
 CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4
 # automatic
@@ -143,8 +143,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\libnvvp;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\Win64;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\openCV\opencv\build\x64\vc15\bin;C:\Program Files (x86)\dotnet\;G:\downloades\zip_files\matlab\runtime\win64;G:\downloades\zip_files\matlab\bin;G:\downloades\zip_files\matlab\polyspace\bin;C:\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\kotlinc\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\Program Files\Go\bin;F:\Matlab\matlab\runtime\win64;F:\Matlab\matlab\bin;C:\dll;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\RadPrograms;C:\MinGW64\bin;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\radwan\.cargo\bin;C:\Users\radwan\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\radwan\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\radwan\AppData\Local\Programs\Python\Python39\;C:\Cadence\SPB_16.5\OpenAccess\bin\win32\opt;C:\Cadence\SPB_16.5\tools\Capture;C:\Cadence\SPB_16.5\tools\PSpice\Library;C:\Cadence\SPB_16.5\tools\PSpice;C:\Cadence\SPB_16.5\tools\specctra\bin;C:\Cadence\SPB_16.5\tools\fet\bin;C:\Cadence\SPB_16.5\tools\libutil\bin;C:\Cadence\SPB_16.5\tools\bin;C:\Cadence\SPB_16.5\tools\pcb\bin;C:\Users\radwan\AppData\Local\Microsoft\WindowsApps;C:\Users\radwan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\radwan\.dotnet\tools;C 
-:\Users\radwan\.dotnet\tools;C:\Users\radwan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\bin;C:\Users\radwan\AppData\Roaming\npm;C:\Users\radwan\go\bin;C:\RadPrograms;C:\MinGW64\bin;C:\Users\radwan\.cargo\bin;
+PATH = C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\libnvvp;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\Win64;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\openCV\opencv\build\x64\vc15\bin;C:\Program Files (x86)\dotnet\;G:\downloades\zip_files\matlab\runtime\win64;G:\downloades\zip_files\matlab\bin;G:\downloades\zip_files\matlab\polyspace\bin;C:\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\kotlinc\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\Program Files\Go\bin;F:\Matlab\matlab\runtime\win64;F:\Matlab\matlab\bin;C:\dll;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\RadPrograms;C:\MinGW64\bin;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\radwan\.cargo\bin;C:\Users\radwan\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\radwan\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\radwan\AppData\Local\Programs\Python\Python39\;C:\Cadence\SPB_16.5\OpenAccess\bin\win32\opt;C:\Cadence\SPB_16.5\tools\Capture;C:\Cadence\SPB_16.5\tools\PSpice\Library;C:\Cadence\SPB_16.5\tools\PSpice;C:\Cadence\SPB_16.5\tools\specctra\bin;C:\Cadence\SPB_16.5\tools\fet\bin;C:\Cadence\SPB_16.5\tools\libutil\bin;C:\Cadence\SPB_16.5\tools\bin;C:\Cadence\SPB_16.5\tools\pcb\bin;C:\Users\radwan\AppData\Local\Microsoft\WindowsApps;C:\Users\radwan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\radwan\.dotnet\tools;C:\Users\radwan\.dotnet\tools;C:\Users\radwan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.2\bin;C:\Users\radwan\AppData\Roaming\npm;C:\Users\radwan\go\bin;C:\RadPrograms;C:\MinGW64\bin;C:\Users\radwan\.cargo\bin;
 # environment
 COMPUTERNAME = CYANRADPC
 # default
@@ -272,10 +271,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 12, GenuineIntel
 
 # Directories
 
-# . (key c:/User 
-s/radwan/Desktop/Code/Go/backend/university, mtime 1658506694): 7 files, no impossibilities.
+# . (key c:/Users/radwan/Desktop/Code/Go/backend/university, mtime 1658568830): 9 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -403,8 +401,7 @@ makefile:
 
 .PHONY: initdatabase check-name migratedown migrateup sqlc uni mock updb
 #  Implicit rule search has not been done.
-#  Modification time 
- never checked.
+#  Modification time never checked.
 #  File has not been updated.
 
 # files hash-table stats:
@@ -415,12 +412,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 23 / storage = 158 B / avg = 6 B
-# current buf: size = 8174 B / used = 158 B / count = 23 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 25 / storage = 176 B / avg = 7 B
+# current buf: size = 8174 B / used = 176 B / count = 25 / avg = 7 B
 
-# strcache performance: lookups = 47 / hit rate = 51%
+# strcache performance: lookups = 49 / hit rate = 48%
 # hash-table stats:
-# Load=23/8192=0%, Rehash=0, Collisions=0/47=0%
-# Finished Make data base on Fri Jul 22 20:39:41 2022
+# Load=25/8192=0%, Rehash=0, Collisions=0/49=0%
+# Finished Make data base on Sat Jul 23 13:35:05 2022
 
  
