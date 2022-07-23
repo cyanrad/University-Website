@@ -7,26 +7,20 @@ on:
     branches: [master]
 
 jobs:
+
   test:
     name: Test
     runs-on: ubuntu-latest
-	# specifying list of extrnal services
-	# that we want to run together with our job
+
     services:
-	# the docker hub image
       postgres:
         image: postgres:14
         env:
-		# docekr environment variables
           POSTGRES_USER: root
           POSTGRES_PASSWORD: secret
           POSTGRES_DB: university
-		# specifying ports
-		ports:
-			-5432:5433
-		# health check options, to check if psql start or not
-		# so it can know when to run the next steps
-		# since we want our services ready before we test
+		    ports:
+			    -5432:5433
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
@@ -34,30 +28,24 @@ jobs:
           --health-retries 5
 		
 		  
-	# installing and running go
     steps:
-	# intalling go and checking out the code
     - name: Set up Go 1.x
-		uses: actions/setup-go@v2
-		with:
-			go-version: ^1.17
+		  uses: actions/setup-go@v2
+		  with:
+			  go-version: ^1.17
+
     working-directory: ./go
     - name: Check out code into the Go module directory
       uses: actions/checkout@v2
 	
-	# installing go migrate cli tool
 	- name: Install golang-migrate
-      run: |
-        curl -L https://github.com/golang-migrate/migrate/releases/download/v4.12.2/migrate.linux-amd64.tar.gz | tar xvz
-        sudo mv migrate.linux-amd64 /usr/bin/migrate
-        which migrate
-	# note that here we are moving the tool to usr/bin/ so 
-	# the program can use it.
+    run: |
+      curl -L https://github.com/golang-migrate/migrate/releases/download/v4.12.2/migrate.linux-amd64.tar.gz | tar xvz
+      sudo mv migrate.linux-amd64 /usr/bin/migrate
+      which migrat
 
-	# making the db migrations so that our service runs
     - name: Run migrations
       run: make migrateup
 	
-	# running go unit tests
     - name: Test
       run: make test
