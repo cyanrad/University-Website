@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 23 13:35:05 2022
+# Make data base, printed on Tue Aug 02 16:45:56 2022
 
 # Variables
 
@@ -47,7 +47,7 @@ GOPATH = C:\Users\radwan\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16904_TUDJEIDLAMSGXQRG
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17228_TEFSCMMLEFUJVCMM
 # environment
 VS160COMCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\
 # environment
@@ -99,7 +99,8 @@ MFLAGS = -pqrR
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # automatic
-+D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
++D 
+ = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
 # makefile (from 'makefile', line 1)
 MAKEFILE_LIST := makefile
 # automatic
@@ -109,7 +110,7 @@ path = "postgresql://root:secret@localhost:5433/university?sslmode=disable"
 # environment
 PT8HOME = G:\cisco
 # environment
-VSCODE_PID = 16904
+VSCODE_PID = 17228
 # environment
 CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4
 # automatic
@@ -173,7 +174,8 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-NO_PROXY = 127.0.0.1
+NO_PROXY = 127. 
+0.0.1
 # environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # automatic
@@ -219,11 +221,12 @@ CDSROOT = C:\Cadence\SPB_16.5
 # environment
 PROCESSOR_ARCHITECTURE = x86
 # environment
-GOMODCACHE = C:\Users\radwan\go\pkg\mod
+GOMODCACHE = C:\Users\radwan\ 
+go\pkg\mod
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-PLATFORMIO_IDE = 2.5.0
+PLATFORMIO_IDE = 2.5.1
 # environment
 HOME = C:\SPB_Data
 # environment
@@ -271,9 +274,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 12, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/radwan/Desktop/Code/Go/backend/university, mtime 1658568830): 9 files, no impossibilities.
+# . (key c:/Users/radwan/Desktop/Code/Go/backend/university, mtime 1658579802): 10 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -327,7 +330,13 @@ migrateup:
 #  recipe to execute (from 'makefile', line 15):
 	migrate -path ${migratepath} -database ${path} -verbose up
 
-uni:
+initdatabase:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+vue:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -336,17 +345,12 @@ uni:
 	cd vue/university
 	npm run dev
 
-initdatabase:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
-#  File has not been updated.
+#  File h 
+as not been updated.
 
 # Not a target:
 all:
@@ -395,11 +399,11 @@ updb:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-14 18:00:20
+#  Last modified 2022-07-24 19:57:38
 #  File has been updated.
 #  Successfully updated.
 
-.PHONY: initdatabase check-name migratedown migrateup sqlc uni mock updb
+.PHONY: initdatabase check-name migratedown migrateup sqlc vue mock updb
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -412,12 +416,13 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 25 / storage = 176 B / avg = 7 B
-# current buf: size = 8174 B / used = 176 B / count = 25 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 25 / storage = 183 B / avg = 7 B
+# current buf: size = 8174 B / used = 183 B / count = 25 / avg = 7 B
 
-# strcache performance: lookups = 49 / hit rate = 48%
+# strcache performance: lookups = 50 / hit rate = 50%
 # hash-table stats:
-# Load=25/8192=0%, Rehash=0, Collisions=0/49=0%
-# Finished Make data base on Sat Jul 23 13:35:05 2022
+# Load=25/8192=0%, Rehash=0, Collisions=0/50=0%
+# Finished Make data base on T 
+ue Aug 02 16:45:56 2022
 
  

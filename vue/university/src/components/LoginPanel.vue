@@ -20,7 +20,7 @@ export default defineComponent({
         async login(): Promise<void> {
             try {
                 const { data } = await axios.post<loginResponse>(
-                    'http://localhost:8080/login',
+                    'http://127.0.0.1:8080/users/login',
                     { id: this.id, password: this.password }
                 )
                 this.status = 2
@@ -28,7 +28,7 @@ export default defineComponent({
             } catch (error) {
                 if (axios.isAxiosError(error)) {
                     const err = error as AxiosError
-                    if (!err.response) { this.status = 3 }
+                    if (err.response["status"] != 0) { this.status = 3 }
                     else {
                         this.status = 1
                     }
@@ -53,7 +53,7 @@ export default defineComponent({
             <p class="sub-text">Please enter your details to login</p>
             <p class="sub-text" style="color:red" v-if="status == 3">Incorrect Login</p>
             <p class="sub-text" style="color:green" v-if="status == 2">Hello {{ fullName }}</p>
-            <p class="sub-text" style="color:yellow" v-if="status == 1">Servers Down</p>
+            <p class="sub-text" style="color:black" v-if="status == 1">Servers Down</p>
 
             <input type="text" placeholder="Student ID" required v-model="id" />
             <input type="password" placeholder="Password" required v-model="password">

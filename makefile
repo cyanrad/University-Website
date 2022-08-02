@@ -45,7 +45,7 @@ server:
 	go run .
 
 # runs vue
-uni: 
+vue: 
 	cd vue/university
 	npm run dev
 
@@ -54,4 +54,4 @@ mock:
 	cd go
 	mockgen -package mockdb -destination db/mock/store.go github.com/cyanrad/university/db/sqlc Store
 
-.PHONY: initdatabase check-name migratedown migrateup sqlc uni mock updb
+.PHONY: initdatabase check-name migratedown migrateup sqlc vue mock updb
