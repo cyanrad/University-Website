@@ -21,8 +21,10 @@ type Server struct {
 // >> purpose: all paths in the same location
 // for testing and production
 var pathsURI = map[string]string{
-	"createUser": "/users",
-	"loginUser":  "/users/login",
+	"createUser":  "/users",
+	"loginUser":   "/users/login",
+	"createEvent": "/event",
+	"getEvent":    "/event/:id",
 }
 
 // >> create new server
@@ -55,12 +57,17 @@ func (server *Server) Start(address string) error {
 func (server *Server) setupRouter() {
 	router := gin.Default()
 
-	// >> no idea what that does. something about security
+	// >> no idea what that does. something about security and stuff
 	// >> but without it can't communicate with the front-end
 	router.Use(cors.Default())
 
+	// >> user
 	router.POST(pathsURI["createUser"], server.createUser)
 	router.POST(pathsURI["loginUser"], server.loginUser)
+
+	// >> event
+	router.POST(pathsURI["createEvent"], server.createEvent)
+	router.GET(pathsURI["getEvent"], server.getEvent)
 
 	// >> creating a new route group
 	// for the auth middleware
