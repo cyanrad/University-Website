@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Aug 02 16:45:56 2022
+# Make data base, printed on Sat Aug 13 21:40:38 2022
 
 # Variables
 
@@ -47,7 +47,7 @@ GOPATH = C:\Users\radwan\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17228_TEFSCMMLEFUJVCMM
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_19624_EDLYMBNNRANQRDNQ
 # environment
 VS160COMCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\
 # environment
@@ -63,7 +63,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\radwan\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+VSCODE_CODE_CACHE_PATH = C:\Users\radwan\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
 # makefile (from 'makefile', line 1)
 password = secret
 # environment
@@ -87,7 +87,7 @@ INTELLIJ IDEA COMMUNITY EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Commu
 # makefile
 CURDIR := c:/Users/radwan/Desktop/Code/Go/backend/university
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -99,8 +99,7 @@ MFLAGS = -pqrR
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # automatic
-+D 
- = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
 # makefile (from 'makefile', line 1)
 MAKEFILE_LIST := makefile
 # automatic
@@ -110,7 +109,7 @@ path = "postgresql://root:secret@localhost:5433/university?sslmode=disable"
 # environment
 PT8HOME = G:\cisco
 # environment
-VSCODE_PID = 17228
+VSCODE_PID = 19624
 # environment
 CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4
 # automatic
@@ -174,8 +173,7 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-NO_PROXY = 127. 
-0.0.1
+NO_PROXY = 127.0.0.1
 # environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # automatic
@@ -221,12 +219,11 @@ CDSROOT = C:\Cadence\SPB_16.5
 # environment
 PROCESSOR_ARCHITECTURE = x86
 # environment
-GOMODCACHE = C:\Users\radwan\ 
-go\pkg\mod
+GOMODCACHE = C:\Users\radwan\go\pkg\mod
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-PLATFORMIO_IDE = 2.5.1
+PLATFORMIO_IDE = 2.5.2
 # environment
 HOME = C:\SPB_Data
 # environment
@@ -238,7 +235,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\radwan\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\c4f68798fb1ac654e1121ad498dc4be0-1.69.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\c4f68798fb1ac654e1121ad498dc4be0-1.70.1-main-sock
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # default
@@ -349,8 +346,7 @@ vue:
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
-#  File h 
-as not been updated.
+#  File has not been updated.
 
 # Not a target:
 all:
@@ -422,7 +418,6 @@ makefile:
 # strcache performance: lookups = 50 / hit rate = 50%
 # hash-table stats:
 # Load=25/8192=0%, Rehash=0, Collisions=0/50=0%
-# Finished Make data base on T 
-ue Aug 02 16:45:56 2022
+# Finished Make data base on Sat Aug 13 21:40:38 2022
 
  
